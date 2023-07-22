@@ -3,7 +3,6 @@ import random
 
 app = FastAPI()
 
-@app.get("/")
 smileys = ["^_^", "~_~", "o.o", "O.o"]
 
 @app.get("/")
