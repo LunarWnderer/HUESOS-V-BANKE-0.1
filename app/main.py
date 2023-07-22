@@ -3,8 +3,7 @@ from fastapi import FastAPI
 app = FastAPI()
 
 @app.get("/")
-def hello_world():
-    return {"message": "HUESOS V BANKE"}
+
     # Define speed of the animation in millis
 speed = 25
 
